@@ -17,9 +17,9 @@ namespace KillerKProject.Models
 
         public int Rating;
 
-        public int NumberInStock;
+        public int BooksInStock;
 
-        public int NumberOnOrder;
+        public int BooksOnOrder;
 
         public DateTime PublicationDate;
 
@@ -30,6 +30,8 @@ namespace KillerKProject.Models
         public Boolean isForSale;
 
         public int AutomaticReorderPoint;
+
+        public int ReviewID;
 
 
     }
