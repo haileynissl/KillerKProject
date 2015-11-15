@@ -17,6 +17,20 @@ namespace KillerKProject.Models
 
         public int Rating;
 
+        public int NumberInStock;
+
+        public int NumberOnOrder;
+
+        public DateTime PublicationDate;
+
+        public int PriceForCustomer;
+
+        public int PricePaidForBook;
+
+        public Boolean isForSale;
+
+        public int AutomaticReorderPoint;
+
 
     }
 }
