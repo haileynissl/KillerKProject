@@ -9,13 +9,13 @@ namespace KillerKProject.Models
     {
         public string BookID;
 
-        public string title;
+        public string Title;
 
-        public string author;
+        public string Author;
 
-        public string genre;
+        public string Genre;
 
-        public int rating;
+        public int Rating;
 
 
     }
