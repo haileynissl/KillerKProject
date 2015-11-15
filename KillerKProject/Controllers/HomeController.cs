@@ -13,7 +13,8 @@ namespace KillerKProject.Controllers
             Dictionary<string, object> data
                 = new Dictionary<string, object>();
             data.Add("Placeholder", "Placeholder");
-            return View(data); 
+            return View(data); 
+
         }
 
         public ActionResult About()
