@@ -27,11 +27,11 @@ namespace KillerKProject.Models
         [Display(Name = "Rating (1-5)")]
         public int Rating { get; set; }
 
-
-        public int CustomerID { get; set; }
-        [ForeignKey("CustomerID")]
-        [Required]
-        public virtual Customer Reviewer { get; set; }
+        //subject to change
+        // int CustomerID { get; set; }
+        //[ForeignKey("CustomerID")]
+        //[Required]
+        //public virtual Customers Reviewer { get; set; }
 
         [Display(Name = "Approved")]
         public bool IsApproved { get; set; }
