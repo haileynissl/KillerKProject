@@ -10,7 +10,7 @@ namespace KillerKProject.Models
     public class Books
     {
         
-        public string BookID;
+        public string BooksID;
 
         public string Title;
 

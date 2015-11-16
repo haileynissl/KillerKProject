@@ -14,7 +14,7 @@ namespace KillerKProject.Models
         public int BookID { get; set; }
         [ForeignKey("BookID")]
         [Required]
-        public virtual Book ReviewedBook { get; set; }
+        public virtual Books ReviewedBook { get; set; }
 
         [StringLength(100)]
         [Required]
